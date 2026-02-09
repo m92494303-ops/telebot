@@ -1,5 +1,8 @@
-from telebot import TeleBot
+import sys
 import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+from telebot import TeleBot
 
 from start import start_handler
 from ram import ram_handler
